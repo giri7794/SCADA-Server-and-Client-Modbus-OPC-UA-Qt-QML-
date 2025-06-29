@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 4050,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 1060,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 290,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 282,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 17
+                    }
+                ],
+                "filePath": "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/qml/Main.qml"
+            }
+        ],
+        "moduleId": "scada_client(appscada_client)"
+    }
+]

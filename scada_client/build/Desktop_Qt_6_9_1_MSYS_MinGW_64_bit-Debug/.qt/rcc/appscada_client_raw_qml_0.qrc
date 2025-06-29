@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/scada_client/">
+    <file alias="qml/Main.qml">D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/qml/Main.qml</file>
+  </qresource>
+</RCC>
+

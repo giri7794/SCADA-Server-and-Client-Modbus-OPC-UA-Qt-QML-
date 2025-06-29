@@ -1,0 +1,5 @@
+module scada_client
+typeinfo appscada_client.qmltypes
+prefer :/qt/qml/scada_client/
+Main 1.0 qml/Main.qml
+

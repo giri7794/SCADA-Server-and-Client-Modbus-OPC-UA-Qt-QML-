@@ -1,0 +1,86 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ScadaViewModel",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "analog0",
+                        "notify": "valuesChanged",
+                        "read": "analog0",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "analog1",
+                        "notify": "valuesChanged",
+                        "read": "analog1",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "digital0",
+                        "notify": "valuesChanged",
+                        "read": "digital0",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "digital1",
+                        "notify": "valuesChanged",
+                        "read": "digital1",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ScadaViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "valuesChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "scada_viewmodel.h",
+        "outputRevision": 69
+    }
+]
