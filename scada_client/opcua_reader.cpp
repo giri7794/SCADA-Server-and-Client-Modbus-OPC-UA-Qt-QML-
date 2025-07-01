@@ -30,7 +30,7 @@ void opcua_reader(ClientData &data) {
         }
 
         // std::this_thread::sleep_for(std::chrono::milliseconds(500));
-        Sleep(500);
+        Sleep(100);
     }
 
     UA_Client_disconnect(client);

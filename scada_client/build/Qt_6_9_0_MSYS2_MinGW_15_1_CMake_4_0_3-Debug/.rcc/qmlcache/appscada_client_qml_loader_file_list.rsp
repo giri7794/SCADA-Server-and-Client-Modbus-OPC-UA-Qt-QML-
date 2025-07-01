@@ -1,0 +1,7 @@
+--resource
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/qmake_scada_client.qrc
+--resource
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/appscada_client_raw_qml_0.qrc
+--resource
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/appscada_client_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/scada_client/qml/Main.qml

@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3232b93639e916b7983d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "scada_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-dab50aa400a6da1ff693.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-4db22f3767728c2dd03f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4dc1d9733cf5c012bb76.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-6a6849e03a9bbbbd74ee.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-262105da3dc49a172c0a.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client-Debug-03ed6752641f62dd9f0d.json",
+					"name" : "appscada_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_autogen-Debug-f0ad92327b028929d1de.json",
+					"name" : "appscada_client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_autogen_timestamp_deps-Debug-32733bc6957c18e2e83b.json",
+					"name" : "appscada_client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_copy_qml-Debug-6b1b8f2ea2b14e2f066d.json",
+					"name" : "appscada_client_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_copy_res-Debug-01afb2e36d7cf41c635d.json",
+					"name" : "appscada_client_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_qmlimportscan-Debug-00f7340706262fe3c529.json",
+					"name" : "appscada_client_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_qmllint-Debug-3ddc6fe5fc02bb349119.json",
+					"name" : "appscada_client_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_qmllint_json-Debug-7d7d5b0eafda1d4cf990.json",
+					"name" : "appscada_client_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_qmllint_module-Debug-d56f33c4be3845b10969.json",
+					"name" : "appscada_client_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appscada_client_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appscada_client_qmltyperegistration-Debug-8ab956ac2fc24997673d.json",
+					"name" : "appscada_client_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appscada_client_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appscada_client_aotstats_target-Debug-f63c657961e60b21daf1.json",
+					"name" : "module_appscada_client_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open62541_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open62541_lib-Debug-fdb1593830a8f82411a6.json",
+					"name" : "open62541_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open62541_lib_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open62541_lib_autogen-Debug-57c8f395be45fd9577c3.json",
+					"name" : "open62541_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open62541_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open62541_lib_autogen_timestamp_deps-Debug-d81642dddcdd168f3f79.json",
+					"name" : "open62541_lib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug",
+		"source" : "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

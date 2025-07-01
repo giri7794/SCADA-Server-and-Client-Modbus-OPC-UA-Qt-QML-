@@ -28,6 +28,7 @@ qt_add_executable(appscada_client
     opcua_reader.h
     scada_viewmodel.cpp
     scada_viewmodel.h
+    open62541.c
     open62541.h
 )
 
@@ -37,9 +38,6 @@ qt_add_qml_module(appscada_client
     VERSION 1.0
     QML_FILES qml/Main.qml
 )
-
-# Define WIN32 if not already
-target_compile_definitions(appscada_client PRIVATE UA_ARCHITECTURE_WIN32 _WIN32)
 
 # Include dirs
 target_include_directories(appscada_client PRIVATE

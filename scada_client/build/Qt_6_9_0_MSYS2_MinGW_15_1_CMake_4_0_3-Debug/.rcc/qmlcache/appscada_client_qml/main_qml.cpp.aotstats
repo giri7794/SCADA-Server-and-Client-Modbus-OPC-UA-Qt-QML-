@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 326,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 687,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 504,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 490,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 480,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 17
+                    }
+                ],
+                "filePath": "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/scada_client/qml/main.qml"
+            }
+        ],
+        "moduleId": "scada_client(appscada_client)"
+    }
+]
