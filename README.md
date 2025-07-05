@@ -6,40 +6,46 @@ This project demonstrates a minimal SCADA architecture using:
 - `open62541` for OPC UA notification
 - `Qt 6 + QML` for GUI (client-side)
 
+---
+
 ## 🔧 Components
 
 ### ✅ `scada_server`
 - Modbus TCP server (simulates analog and digital inputs)
-- OPC UA server to notify updates from Modbus registers
-
-### ✅ `scada_client`
-- Modbus TCP client (writes analog/digital values)
-- OPC UA client (subscribes to updates)
-- Qt 6 / QML GUI to display live data
+- OPC UA server exposes those registers as nodes
+- Sends notifications to OPC UA clients on Modbus data updates
 
 ---
 
-## ❗ Known Issue: Runtime Error
+## ✅ `scada_client` (Console-based Client)
+- Modbus TCP client (writes analog and digital values periodically)
+- OPC UA client subscribes to updates from server
+- Console-based, useful for testing communication logic without GUI
 
-If you see this error when launching the client:
-The procedure entry point nanosleep64 could not be located in the dynamic link library ...
-
-
-💡 It means:
-- `libmodbus.dll` was compiled using **MSYS2 MinGW**
-- Your Qt application was built using **Qt's bundled MinGW**
-- These runtimes are **incompatible**, causing symbol conflicts (e.g., duplicate `libwinpthread-1.dll`)
+### 🔄 Use Case:
+> Embedded SCADA client running in a headless environment for testing or logging purposes.
 
 ---
 
-## 🛠️ Build Instructions (Client)
+## ✅ `qtonly_scada_client` (Qt/QML GUI Client)
+- Uses `QModbusTcpClient` via `QtSerialBus` to write Modbus registers
+- Uses `QOpcUaClient` to subscribe to register updates from server
+- QML GUI displays real-time analog/digital values
+
+### 🖥️ Use Case:
+> Interactive SCADA operator panel for monitoring and controlling analog/digital values via GUI.
+
+---
+
+## 🛠️ Build Instructions (Qt GUI Client)
 
 Make sure:
-- `Qt 6.9.x` is installed
-- `open62541` is integrated in your project
-- `libmodbus` is rebuilt with Qt’s MinGW
+- `Qt 6.9.x` is installed with `SerialBus` and `OpcUa` modules
+- `open62541` is integrated into your Qt installation
+- `libmodbus` is rebuilt using the same Qt MinGW toolchain
 
-Then open `scada_client.pro` in Qt Creator or build via CMake:
+Then build using:
+
 ```bash
 cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build

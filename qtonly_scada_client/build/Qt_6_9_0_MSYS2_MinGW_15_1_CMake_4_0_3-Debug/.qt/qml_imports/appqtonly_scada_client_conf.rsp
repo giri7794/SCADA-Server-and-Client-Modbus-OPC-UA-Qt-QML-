@@ -1,0 +1,14 @@
+-rootPath
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client
+-cmake-output
+-output-file
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/qml_imports/appqtonly_scada_client_conf.cmake
+-importPath
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/qtonly_scada_client
+-importPath
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug
+-importPath
+C:/Qt/6.9.1/mingw_64/qml
+-qrcFiles
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/qmake_qtonly_scada_client.qrc
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/appqtonly_scada_client_raw_qml_0.qrc

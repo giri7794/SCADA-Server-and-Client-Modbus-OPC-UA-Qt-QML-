@@ -1,0 +1,5 @@
+--resource
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/qmake_qtonly_scada_client.qrc
+--resource
+D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug/.qt/rcc/appqtonly_scada_client_raw_qml_0.qrc
+/qt/qml/qtonly_scada_client/Main.qml

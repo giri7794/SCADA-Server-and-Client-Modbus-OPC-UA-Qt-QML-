@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a93af1d7f1f79a2df522.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qtonly_scada_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-12d4b063279ddef31190.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9f34281049f83ee50139.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-51ad897f66a981c9fa07.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-082ce5bc9ef04c95566b.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3affa57097252803cb93.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client-Debug-d6e912ea5c4b0008c305.json",
+					"name" : "appqtonly_scada_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_autogen-Debug-1a3049c7c026b3797245.json",
+					"name" : "appqtonly_scada_client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_autogen_timestamp_deps-Debug-c176f0fc18a211115a09.json",
+					"name" : "appqtonly_scada_client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_copy_qml-Debug-3a258d5f5662b12cee71.json",
+					"name" : "appqtonly_scada_client_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_copy_res-Debug-36dc4e12502a86063a12.json",
+					"name" : "appqtonly_scada_client_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_qmlimportscan-Debug-4530c133b7b19da710e4.json",
+					"name" : "appqtonly_scada_client_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_qmllint-Debug-dbccb7e4dfa6f849e6b7.json",
+					"name" : "appqtonly_scada_client_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_qmllint_json-Debug-19b1b8c71a2a9b53078f.json",
+					"name" : "appqtonly_scada_client_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_qmllint_module-Debug-1c23b2e65b046df44f02.json",
+					"name" : "appqtonly_scada_client_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqtonly_scada_client_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqtonly_scada_client_qmltyperegistration-Debug-a390b77dbd7732f222d0.json",
+					"name" : "appqtonly_scada_client_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appqtonly_scada_client_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appqtonly_scada_client_aotstats_target-Debug-7b52dcfa118b6cc3048b.json",
+					"name" : "module_appqtonly_scada_client_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/build/Qt_6_9_0_MSYS2_MinGW_15_1_CMake_4_0_3-Debug",
+		"source" : "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

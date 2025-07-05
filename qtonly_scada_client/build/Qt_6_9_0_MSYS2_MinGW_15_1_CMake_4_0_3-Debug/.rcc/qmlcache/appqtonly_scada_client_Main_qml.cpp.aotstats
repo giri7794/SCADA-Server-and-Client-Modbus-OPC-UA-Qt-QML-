@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 485,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 767,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 497,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 495,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 491,
+                        "errorMessage": "Cannot access value for name scada",
+                        "functionName": "text",
+                        "line": 17
+                    }
+                ],
+                "filePath": "D:/Giriprakash/Development/Qt/SCADA_ARCH/MODBUS_OPCUA/qtonly_scada_client/Main.qml"
+            }
+        ],
+        "moduleId": "qtonly_scada_client(appqtonly_scada_client)"
+    }
+]
